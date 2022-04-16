@@ -1,0 +1,48 @@
+.card{
+    width: 18rem; 
+    height: 850px;
+    margin-top: 10px;
+}
+.img{
+    height: 50%;
+}
+.list{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+  
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+
+  label[value="SEARCH"] {
+    border-radius: 5px;
+    font-weight:normal;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+    width: 80px;
+    margin-left: 5px;
+
+  }
+.bttn{
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+
+  .search > input[type="text"]{
+    width: 40%;
+    min-width: 170px;
+  }
